@@ -53,7 +53,7 @@ export const Footer: React.FC = () => {
             <a href="#" target="_blank" aria-label="LinkedIn" className="p-2 bg-white rounded-lg border border-gray-200 hover:border-black transition-colors">
               <Linkedin size={18} className="text-slate-600" />
             </a>
-            <a href="mailto:contact@nyvix.com" aria-label="Email" className="p-2 bg-white rounded-lg border border-gray-200 hover:border-black transition-colors">
+            <a href="mailto:inquiries@nyvix.io" aria-label="Email" className="p-2 bg-white rounded-lg border border-gray-200 hover:border-black transition-colors">
               <Mail size={18} className="text-slate-600" />
             </a>
           </div>
