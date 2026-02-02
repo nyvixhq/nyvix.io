@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { COLORS } from '../constants';
 
 export const Discovery: React.FC = () => {
   return (
@@ -41,16 +40,6 @@ export const Discovery: React.FC = () => {
             className="absolute inset-0 w-full h-full object-cover grayscale-[20%]" 
             alt="Product visual" 
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-12 text-white">
-            <div className="mb-6">
-              <h3 className="text-5xl font-bold mb-2">18h</h3>
-              <p className="text-sm opacity-80">saved for every team</p>
-            </div>
-            <div>
-              <h3 className="text-5xl font-bold mb-2">$580</h3>
-              <p className="text-sm opacity-80">cost saving per user</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
