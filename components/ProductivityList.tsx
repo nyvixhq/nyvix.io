@@ -25,12 +25,12 @@ const sections = [
       {
         icon: <GraduationCap className="text-black" size={20} />,
         name: "Education",
-        desc: "From choosing a career to accessing quality learning, education in Africa is riddled with gaps. We're not fixing one — we're rethinking how the system serves students, professionals, and institutions."
+        desc: "From choosing a career to accessing quality learning, education systems leave too many people navigating gaps. We're not fixing one — we're rethinking how the system serves students, professionals, and institutions."
       },
       {
         icon: <Gavel className="text-black" size={20} />,
         name: "Law",
-        desc: "Contracts, rights, disputes, compliance — legal systems across Africa are built for professionals, not the people they're supposed to protect. We're changing who gets access."
+        desc: "Contracts, rights, disputes, compliance — legal systems are built for professionals, not the people they're supposed to protect. We're changing who gets access."
       }
     ]
   },
@@ -75,7 +75,7 @@ const sections = [
       {
         icon: <ShieldCheck className="text-black" size={20} />,
         name: "Security",
-        desc: "Identity, fraud, infrastructure, personal safety — security is still reactive in most of Africa. We're building tools that protect people and systems before things go wrong."
+        desc: "Identity, fraud, infrastructure, personal safety — security remains reactive. We're building tools that protect people and systems before things go wrong."
       }
     ]
   }
@@ -122,6 +122,10 @@ export const ProductivityList: React.FC = () => {
           </div>
         ))}
       </div>
+
+      <p className="mt-20 text-lg text-slate-500 text-center max-w-3xl mx-auto">
+        Our work begins in environments where systems are underdeveloped or failing — and is designed to scale wherever those problems exist.
+      </p>
     </section>
   );
 };
