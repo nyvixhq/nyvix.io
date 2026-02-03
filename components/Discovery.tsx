@@ -35,10 +35,13 @@ export const Discovery: React.FC = () => {
         </div>
 
         <div className="flex-1 relative bg-gray-50 m-6 rounded-3xl overflow-hidden min-h-[400px]">
-          <img 
-            src="/products.png" 
-            className="absolute inset-0 w-full h-full object-cover grayscale-[20%]" 
-            alt="Product visual" 
+          <video
+            src="/feasil-demo.mp4"
+            className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
         </div>
       </div>
