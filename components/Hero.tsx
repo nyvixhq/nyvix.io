@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { COLORS } from '../constants';
 
 export const Hero: React.FC = () => {
   return (
@@ -15,18 +14,20 @@ export const Hero: React.FC = () => {
         />
       </div>
 
-      <div className="flex flex-wrap items-center justify-center gap-2 text-xl max-w-3xl leading-relaxed text-slate-500">
-        We build 
-        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">focused products</span> 
-        across 
-        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">health</span>, 
-        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">education</span>, 
-        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">energy</span>, 
-        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">law</span>, 
-        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">business</span>, 
-        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">fashion</span>, 
-        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">agriculture</span>, 
-        and 
+      <div className="flex flex-wrap items-center justify-center gap-2 text-xl max-w-4xl leading-relaxed text-slate-500">
+        We build
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">focused products</span>
+        across
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">health</span>,
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">education</span>,
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">law</span>,
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">business</span>,
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">energy</span>,
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">manufacturing</span>,
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">fashion</span>,
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">agriculture</span>,
+        <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">transportation</span>,
+        and
         <span className="px-3 py-1 bg-lime-accent rounded-md text-black font-semibold text-lg">security</span>.
       </div>
     </section>

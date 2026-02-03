@@ -11,11 +11,16 @@ export const AboutSection: React.FC = () => {
         </div>
         <div className="lg:w-2/3">
           <p className="text-2xl md:text-3xl text-slate-500 leading-snug">
-            Nyvix is a technology company based in Lagos, Nigeria. We build products across industries where things are fundamentally broken — where people are forced to make important decisions without the right information, the right tools, or the right access. 
+            Most industries still run on broken systems. People are forced to make important decisions without clear information, effective tools, or real access. That's not a mystery. It's a failure of design.
           </p>
           <p className="text-2xl md:text-3xl text-slate-500 leading-snug mt-8">
-            Each product we build is independent, serves its own users, and exists to change how an entire industry works — not to check a box and move on. 
-            <span className="text-black block mt-6 font-bold">The problems are obvious. We're building the solutions.</span>
+            <span className="text-black font-bold">Nyvix exists to fix that.</span>
+          </p>
+          <p className="text-2xl md:text-3xl text-slate-500 leading-snug mt-8">
+            We build independent products that replace dysfunction with working systems. Not patches. Not incremental upgrades. Structural change. Each product is designed to stand on its own and redefine how an industry operates.
+          </p>
+          <p className="text-2xl md:text-3xl text-slate-500 leading-snug mt-8">
+            <span className="text-black font-bold">If a problem is obvious and persistent, it means better systems haven't been built yet. We're building them.</span>
           </p>
         </div>
       </div>

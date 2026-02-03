@@ -1,65 +1,81 @@
 
 import React from 'react';
-import { 
-  HeartPulse, 
-  GraduationCap, 
-  Gavel, 
-  Briefcase, 
-  Shirt, 
-  Sprout, 
+import {
+  HeartPulse,
+  GraduationCap,
+  Gavel,
+  Briefcase,
+  Shirt,
+  Sprout,
   ShieldCheck,
-  Globe
+  Zap,
+  Factory,
+  Truck
 } from 'lucide-react';
-import { COLORS } from '../constants';
 
 const sections = [
   {
     title: "Where people make decisions that shape their lives",
     items: [
-      { 
-        icon: <HeartPulse className="text-black" size={20} />, 
-        name: "Health", 
-        desc: "Diagnosis, treatment, prescriptions, prevention — the health system is full of moments where people need clarity and don't get it. We're building across all of them." 
+      {
+        icon: <HeartPulse className="text-black" size={20} />,
+        name: "Health",
+        desc: "Diagnosis, treatment, prescriptions, prevention — critical decisions are made every day without clarity. The system is fragmented. Information is locked away. We're building tools that make health decisions understandable and actionable."
       },
-      { 
-        icon: <GraduationCap className="text-black" size={20} />, 
-        name: "Education", 
-        desc: "From choosing a career to accessing quality learning, education in Africa is riddled with gaps. We're not fixing one — we're rethinking how the system serves students, professionals, and institutions." 
+      {
+        icon: <GraduationCap className="text-black" size={20} />,
+        name: "Education",
+        desc: "From choosing a career to accessing quality learning, education in Africa is riddled with gaps. We're not fixing one — we're rethinking how the system serves students, professionals, and institutions."
       },
-      { 
-        icon: <Gavel className="text-black" size={20} />, 
-        name: "Law", 
-        desc: "Contracts, rights, disputes, compliance — legal systems across Africa are built for professionals, not the people they're supposed to protect. We're changing who gets access." 
+      {
+        icon: <Gavel className="text-black" size={20} />,
+        name: "Law",
+        desc: "Contracts, rights, disputes, compliance — legal systems across Africa are built for professionals, not the people they're supposed to protect. We're changing who gets access."
       }
     ]
   },
   {
     title: "Where industries are ready to be rebuilt",
     items: [
-      { 
-        icon: <Briefcase className="text-black" size={20} />, 
-        name: "Business", 
-        desc: "Validation, planning, operations, growth — founders and businesses make high-stakes decisions every day with bad tools or none at all. We're building what should already exist." 
+      {
+        icon: <Briefcase className="text-black" size={20} />,
+        name: "Business",
+        desc: "Validation, planning, operations, growth — founders make high-stakes decisions with inadequate tools. We're building what should already exist."
       },
-      { 
-        icon: <Shirt className="text-black" size={20} />, 
-        name: "Fashion", 
-        desc: "Personal styling, wardrobe management, trend access, size inclusivity — fashion technology barely exists for most of the world. We're building it from the ground up." 
+      {
+        icon: <Zap className="text-black" size={20} />,
+        name: "Energy",
+        desc: "Generation, storage, distribution, reliability — energy systems fail quietly and constantly. Power is unreliable, expensive, and unevenly distributed. We're building tools and systems that make energy predictable, accessible, and resilient."
       },
-      { 
-        icon: <Sprout className="text-black" size={20} />, 
-        name: "Agriculture", 
-        desc: "Supply chain, pricing, weather, market access — the people who feed the continent still run on guesswork. We're building tools that give them real information." 
+      {
+        icon: <Factory className="text-black" size={20} />,
+        name: "Manufacturing",
+        desc: "Production, logistics, quality, downtime — manufacturing systems run on outdated assumptions and incomplete data. We're building tools that make production measurable, efficient, and scalable."
+      },
+      {
+        icon: <Shirt className="text-black" size={20} />,
+        name: "Fashion",
+        desc: "Personal style, sizing, access, inclusion — fashion technology ignores most of the world. We're building systems that reflect how people actually live."
+      },
+      {
+        icon: <Sprout className="text-black" size={20} />,
+        name: "Agriculture",
+        desc: "Pricing, supply chains, weather, market access — food systems still run on guesswork. We're building tools that replace uncertainty with information."
+      },
+      {
+        icon: <Truck className="text-black" size={20} />,
+        name: "Transportation & Logistics",
+        desc: "Routing, pricing, delivery, reliability — logistics systems fail silently at scale. We're building tools that make movement efficient and visible."
       }
     ]
   },
   {
     title: "Where protection still falls short",
     items: [
-      { 
-        icon: <ShieldCheck className="text-black" size={20} />, 
-        name: "Security", 
-        desc: "Identity, fraud, infrastructure, personal safety — security is still reactive in most of Africa. We're building tools that protect people and systems before things go wrong." 
+      {
+        icon: <ShieldCheck className="text-black" size={20} />,
+        name: "Security",
+        desc: "Identity, fraud, infrastructure, personal safety — security is still reactive in most of Africa. We're building tools that protect people and systems before things go wrong."
       }
     ]
   }
