@@ -10,9 +10,17 @@ export const Discovery: React.FC = () => {
           <div>
             <span className="text-xs font-bold tracking-widest text-slate-400 uppercase mb-8 block">Products</span>
             <h2 className="text-5xl font-semibold mb-6">Feasil</h2>
-            <p className="text-xl text-slate-500 max-w-sm mb-12">
+            <p className="text-xl text-slate-500 max-w-sm mb-8">
               You describe a business idea. Feasil tells you whether you're building something new or entering an existing fight — and what to do about either.
             </p>
+            <a
+              href="https://feasil.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-black text-white rounded-xl text-sm font-semibold transition-transform active:scale-95 hover:opacity-90"
+            >
+              Try Feasil
+            </a>
           </div>
 
           {/* Navigation Controls replaced Tabs */}
